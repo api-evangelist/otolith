@@ -1,0 +1,58 @@
+generated: '2026-08-26'
+method: probed
+source: live GET probes of https://otolithlabs.com/.well-known/* (browser User-Agent, one attempt per URL)
+note: >-
+  Every /.well-known/ path on the only host Otolith Labs operates returns the site's WordPress 404
+  template (HTTP 404, text/html, 73,820 bytes). No well-known document is served, so no WellKnown or
+  SecurityTxt pointer is emitted in apis.yml — this file records a verified absence, not a presence.
+  The www. hostname 301s to the apex and otolith.com redirects to otolithlabs.com, so all three
+  resolve to the same surface. The only machine-readable endpoint anywhere on the domain is the
+  default WordPress core REST API at /wp-json/ (HTTP 200), which is CMS scaffolding shipped by
+  WordPress rather than an API Otolith Labs published, documents, or supports.
+hosts:
+- host: otolithlabs.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+    file: null
+  - path: /.well-known/openid-configuration
+    status: 404
+    file: null
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+    file: null
+  - path: /.well-known/api-catalog
+    status: 404
+    file: null
+  - path: /.well-known/ai-plugin.json
+    status: 404
+    file: null
+  - path: /.well-known/agent-card.json
+    status: 404
+    file: null
+  - path: /.well-known/agent.json
+    status: 404
+    file: null
+- host: otolith.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+    file: null
+  - path: /.well-known/openid-configuration
+    status: 404
+    file: null
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+    file: null
+  - path: /.well-known/api-catalog
+    status: 404
+    file: null
+  - path: /.well-known/ai-plugin.json
+    status: 404
+    file: null
+  - path: /.well-known/agent-card.json
+    status: 404
+    file: null
+  - path: /.well-known/agent.json
+    status: 404
+    file: null

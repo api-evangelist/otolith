@@ -1,0 +1,70 @@
+# Otolith (Otolith Labs, Inc.)
+
+> Otolith Labs is a privately held, clinical-stage medical device company in Washington,
+> D.C., developing the OtoBand — a non-invasive wearable headband that applies calibrated
+> mechanical vibration to the vestibular system ("non-invasive Vestibular Resonance
+> Therapy", nVRT, also described as vestibular masking) to reduce the symptoms of chronic
+> vertigo and vestibular migraine without surgery, medication, or patient-specific
+> calibration.
+
+<!--
+generated: 2026-08-26
+method: generated
+source: apis.yml + probed pages on https://otolithlabs.com (https://otolithlabs.com/llms.txt returned 404 on 2026-08-26)
+-->
+
+## What this company is
+
+- Founded 2015 by Sam Owen; based at 200 Massachusetts Ave NW, Floor 7, Washington, DC 20001.
+- Sole product line: the OtoBand wearable, built on the company's nVRT / vestibular-masking
+  technology. It holds an FDA Breakthrough Device designation and is a PRESCRIPTION,
+  investigational device — not cleared for general commercial sale.
+- Clinical program spans 600+ subjects with no reported serious adverse events, plus an
+  at-home telehealth vertigo study; the technology has also been studied for motion
+  sickness (validated with Jaguar Land Rover in 2018) and for VR cybersickness.
+- Backed by Morningside Ventures ($20M Series A), Mark Cuban Companies, a $3.3M seed round
+  and a group of ENT physician investors.
+- Leadership: Dan Wagner (CEO), Kevin Franck (Chief Clinical Officer), Jon Akers (CTO,
+  co-founder), Didier Depireux (Chief Science Officer, co-founder), Sam Owen (founder).
+
+## API surface
+
+Otolith Labs publishes **no public API**. As of 2026-08-26 an enrichment pass found:
+
+- No developer portal, API reference, documentation site, SDK, CLI, or Postman collection.
+- No OpenAPI, Swagger, GraphQL SDL, AsyncAPI, gRPC/protobuf or WSDL contract at any probed
+  location on otolithlabs.com or otolith.com — /openapi.json, /openapi.yaml, /swagger.json,
+  /v1/openapi.json, /api-docs, /api, /docs, /redoc, /graphql and /apis.json all return 404.
+- No conventional API subdomains: api./app./developer./docs./portal.otolithlabs.com are all
+  NXDOMAIN.
+- No MCP server and no A2A agent card; /.well-known/agent-card.json and
+  /.well-known/agent.json both return 404, as does every other /.well-known/ path probed.
+- No first-party packages on npm, PyPI or the other public registries, and no GitHub
+  organization (github.com/otolith, /otolithlabs, /otolith-labs are all 404). The npm
+  package named "otolith" is an unrelated third-party JavaScript tilt-control library.
+- The only machine-readable endpoint on the domain is the default WordPress core REST API
+  at https://otolithlabs.com/wp-json/ (namespaces wp/v2, oembed/1.0, divi/v1, wordfence/v1,
+  wpaas/v1 and other plugin routes). That is CMS scaffolding shipped by WordPress and its
+  plugins, not an API this company designed, documented, or supports, and it is deliberately
+  not cataloged as an Otolith Labs API.
+
+This is an honest zero, not a gap in the profile: Otolith Labs manufactures a physical
+prescription medical device, and software is not the product.
+
+## Pages
+
+- Home: https://otolithlabs.com/
+- nVRT technology: https://otolithlabs.com/nvrt-technology/
+- Vertigo: https://otolithlabs.com/vertigo/
+- Clinical study (at-home telehealth): https://otolithlabs.com/clinical-study/
+- About / leadership: https://otolithlabs.com/about/
+- News & recognition: https://otolithlabs.com/news/
+- Open positions: https://otolithlabs.com/open-job-opportunities/
+- Contact: https://otolithlabs.com/contact/
+- Secondary-market listing (third-party venue, not the company's own site):
+  https://forgeglobal.com/otolith_stock/
+
+## This profile
+
+- API Evangelist third-party profile: https://github.com/api-evangelist/otolith
+- Corrections, re-scores and removal are free: info@apievangelist.com
