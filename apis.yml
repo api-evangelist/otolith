@@ -11,6 +11,17 @@ description: 'Otolith Labs, Inc. (trading as Otolith) is a privately held, clini
   investors. It is a physical medical device manufacturer: it publishes no public API, developer portal,
   SDK, or machine-readable specification, and its only web surface is a WordPress marketing, investor and
   clinical-trial site.'
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 image: https://otolithlabs.com/wp-content/uploads/2022/03/Otolith-Horiztonal-Logo-in-Color-1.webp
 url: https://raw.githubusercontent.com/api-evangelist/otolith/refs/heads/main/apis.yml
 x-type: company
