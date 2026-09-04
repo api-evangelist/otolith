@@ -22,6 +22,18 @@ deliveryModel:
   - none
   generated: '2026-08-28'
   method: derived
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source:
+  - security
+  generated: '2026-09-02'
+  method: derived
 image: https://otolithlabs.com/wp-content/uploads/2022/03/Otolith-Horiztonal-Logo-in-Color-1.webp
 url: https://raw.githubusercontent.com/api-evangelist/otolith/refs/heads/main/apis.yml
 x-type: company
