@@ -1,0 +1,14 @@
+{
+  "repo": "otolith",
+  "feeds": [
+    {
+      "source": "https://otolithlabs.com/news/",
+      "feed_url": "https://otolithlabs.com/news/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "discovered"
+    }
+  ],
+  "post_count": 0,
+  "fetched": "2026-10-10T13:15:00Z"
+}
