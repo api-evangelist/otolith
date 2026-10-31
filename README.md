@@ -64,5 +64,80 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Otolith is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.
-- https://forgeglobal.com/otolith_stock/
+Otolith Labs, Inc. (trading as Otolith) is a privately held, clinical-stage medical device company headquartered at 200 Massachusetts Ave NW in Washington, D.C., founded in 2015 by Sam Owen and developing a non-invasive wearable headband — the OtoBand — that applies calibrated mechanical vibration to the vestibular system, a technique the company calls non-invasive Vestibular Resonance Therapy (nVRT) or vestibular masking, to reduce the symptoms of chronic vertigo and vestibular migraine without surgery, medication, or patient-specific calibration. The device holds an FDA Breakthrough Device designation, has been evaluated in clinical work spanning 600+ subjects, and is being studied for cybersickness in virtual reality. Otolith Labs is backed by Morningside Ventures, Mark Cuban Companies and a group of ENT physician investors. It is a physical medical device manufacturer: it publishes no public API, developer portal, SDK, or machine-readable specification, and its only web surface is a WordPress marketing, investor and clinical-trial site.
+
+**Areas:** Company · Medical Devices · Healthcare · Medical Technology · Wearables · Neurotechnology · Vestibular Disorders · Vertigo · Clinical Trials · Digital Health
+
+## Otolith on APIs.io
+
+Everything profiled for Otolith is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/otolith/](https://apis.io/providers/otolith/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Otolith Domain Security](https://apis.io/security/otolith/otolith-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://otolithlabs.com/)
+- [Blog](https://otolithlabs.com/news/)
+
+## API Evangelist rating
+
+**Kin Score 4.9** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 55.4 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 2.4 |
+| Access clarity | 0.0 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 4.7** — Health
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/otolith/](https://apis.io/providers/otolith/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Otolith: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/otolith/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
